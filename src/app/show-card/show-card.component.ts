@@ -9,6 +9,7 @@ import {Observable} from "rxjs/Rx"
     trigger("visibility", [
       state("visible", style({
         opacity:1,
+        display:"block"
       })),
       state ("hidden", style({
         opacity:0
@@ -31,13 +32,15 @@ export class ShowCardComponent implements AfterViewInit {
   trapActivateState:string = "visible"
   trapCardState:string = "hidden"
   trapActivateDisplay:string = "block"
+  trapCardDisplay:string = "none"
 
   ngAfterViewInit() {
-    Observable.timer(3000).subscribe(()=>{
+    Observable.timer(4000).subscribe(()=>{
       this.trapActivateState = "hidden"
     });
-    Observable.timer(3500).subscribe(()=>{
+    Observable.timer(4500).subscribe(()=>{
       this.trapActivateDisplay = "none"
+      this.trapCardDisplay = "block"
       this.trapCardState = "visible"
     })
   }

@@ -1,12 +1,12 @@
 <div class="row center-xs">
-  <div class="col-xs-6">
+  <div class="col-xs-10 col-sm-8 col-md-6">
     <div id="trap-activate" [@visibility] = "trapActivateState">
-      <h1 [@display] = "trapActivateDisplay">I activate my trap card</h1>
-      <img [@display] = "trapActivateDisplay" src="/assets/trap-activate.jpg">
+      <h1  [@display] = "trapActivateDisplay">I activate my trap card</h1>
+      <img  [@display] = "trapActivateDisplay" src="/assets/trap-activate.jpg">
     </div>
-    <div id="trap-activate" [@visibility] = "trapCardState">
-      <img id="trap" src="/assets/trap.jpg">
-      <h1>Send your nudes <a target="_blank" href="https://www.messenger.com/t/lilrich95">here</a></h1>
+    <div id="trap-card" [@display] = "trapCardDisplay" >
+      <img src="/assets/trap.jpg">
+      <h1 >Send your nudes <a target="_blank" href="https://www.messenger.com/t/lilrich95">here</a></h1>
       <button  routerLink="/choose-card">Play again</button>
     </div>
   </div>
