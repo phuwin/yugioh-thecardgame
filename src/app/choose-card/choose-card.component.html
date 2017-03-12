@@ -1,0 +1,6 @@
+<h2>Now pick a card! Any...</h2>
+<div class="row">
+  <div class="col-xs-4" *ngFor="let i of [1,2,3];let index = index">
+    <img [src]="card.url" (click)="onCardPick(index)" alt="">
+  </div>
+</div>
