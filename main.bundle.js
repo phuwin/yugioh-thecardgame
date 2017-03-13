@@ -364,7 +364,7 @@ exports = module.exports = __webpack_require__(63)();
 
 
 // module
-exports.push([module.i, "#app-container{\r\n    max-width:700px;\r\n    margin:0 auto;\r\n    padding:20px;\r\n    margin-top: 20px;\r\n    margin-bottom:20px;\r\n}", ""]);
+exports.push([module.i, "#app-container{\n    max-width:700px;\n    margin:0 auto;\n    padding:20px;\n    margin-top: 20px;\n    margin-bottom:20px;\n}", ""]);
 
 // exports
 
@@ -400,7 +400,7 @@ exports = module.exports = __webpack_require__(63)();
 
 
 // module
-exports.push([module.i, ".row {\r\n    width:100%;\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n}\r\n.col {\r\n    -webkit-box-flex: 1;\r\n    -ms-flex-positive: 1;\r\n    flex-grow: 1;\r\n    -ms-flex-preferred-size: 0;\r\n    flex-basis: 0;\r\n    max-width: 100%;\r\n}\r\n.row:after{\r\n    display:table;\r\n    clear:both;\r\n    content:\" \";\r\n}\r\nimg {\r\n    max-width: 100%;\r\n}", ""]);
+exports.push([module.i, ".row {\n    width:100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n.col {\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    -ms-flex-preferred-size: 0;\n    flex-basis: 0;\n    max-width: 100%;\n}\n.row:after{\n    display:table;\n    clear:both;\n    content:\" \";\n}\nimg {\n    max-width: 100%;\n}", ""]);
 
 // exports
 
@@ -418,7 +418,7 @@ exports = module.exports = __webpack_require__(63)();
 
 
 // module
-exports.push([module.i, "img {\r\n    max-width: 100%;\r\n}\r\na {\r\n    color:#BF713E\r\n}\r\n#trap-card{\r\n    display:none;\r\n}", ""]);
+exports.push([module.i, "img {\n    max-width: 100%;\n}\na {\n    color:#BF713E\n}\n#trap-card{\n    display:none;\n}", ""]);
 
 // exports
 
@@ -449,35 +449,35 @@ module.exports = module.exports.toString();
 /***/ 556:
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"app-container\">\r\n  <h1>\r\n    {{title}}\r\n  </h1>\r\n  <router-outlet></router-outlet>\r\n</div>\r\n\r\n"
+module.exports = "<div id=\"app-container\">\n  <h1>\n    {{title}}\n  </h1>\n  <router-outlet></router-outlet>\n</div>\n\n"
 
 /***/ }),
 
 /***/ 557:
 /***/ (function(module, exports) {
 
-module.exports = "<h3>\r\n  You have picked card number <span>{{card}}</span>. Are you sure?\r\n</h3>\r\n<div class=\"row center-xs middle-xs\">\r\n  <div class=\"col-xs-2 col-sm\">\r\n    <button routerLink=\"/choose-card\">No, back</button>\r\n  </div>\r\n  <div class=\"col-xs\">\r\n   <img src=\"assets/hand-over-card.png\">\r\n  </div>\r\n  <div class=\"col-xs-2 col-sm\">\r\n    <button routerLink=\"/show-card\">Yeah, go ahead</button>\r\n  </div>\r\n</div>  \r\n"
+module.exports = "<h3>\n  You have picked card number <span>{{card}}</span>. Are you sure?\n</h3>\n<div class=\"row center-xs middle-xs\">\n  <div class=\"col-xs-2 col-sm\">\n    <button routerLink=\"/choose-card\">No, back</button>\n  </div>\n  <div class=\"col-xs\">\n   <img src=\"assets/hand-over-card.png\">\n  </div>\n  <div class=\"col-xs-2 col-sm\">\n    <button routerLink=\"/show-card\">Yeah, go ahead</button>\n  </div>\n</div>  \n"
 
 /***/ }),
 
 /***/ 558:
 /***/ (function(module, exports) {
 
-module.exports = "<h2>Now pick a card! Any...</h2>\r\n<div class=\"row\">\r\n  <div class=\"col-xs-4\" *ngFor=\"let i of [1,2,3];let index = index\">\r\n    <img [src]=\"card.url\" (click)=\"onCardPick(index)\" alt=\"\">\r\n  </div>\r\n</div>"
+module.exports = "<h2>Now pick a card! Any...</h2>\n<div class=\"row\">\n  <div class=\"col-xs-4\" *ngFor=\"let i of [1,2,3];let index = index\">\n    <img [src]=\"card.url\" (click)=\"onCardPick(index)\" alt=\"\">\n  </div>\n</div>"
 
 /***/ }),
 
 /***/ 559:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row center-xs\">\r\n  <div class=\"col-xs-10 col-sm-8 col-md-6\">\r\n    <div id=\"trap-activate\" [@visibility] = \"trapActivateState\">\r\n      <h1  [@display] = \"trapActivateDisplay\">I activate my trap card</h1>\r\n      <img  [@display] = \"trapActivateDisplay\" src=\"assets/trap-activate.jpg\">\r\n    </div>\r\n    <div id=\"trap-card\" [@display] = \"trapCardDisplay\" >\r\n      <img src=\"assets/trap.jpg\">\r\n      <h1 >Send your nudes <a href=\"mailto:ngp130895@gmail.com?subject=Send nudes\">here</a></h1>\r\n      <button  routerLink=\"choose-card\">Play again</button>\r\n    </div>\r\n  </div>\r\n</div>"
+module.exports = "<div class=\"row center-xs\">\n  <div class=\"col-xs-10 col-sm-8 col-md-6\">\n    <div id=\"trap-activate\" [@visibility] = \"trapActivateState\">\n      <h1  [@display] = \"trapActivateDisplay\">I activate my trap card</h1>\n      <img  [@display] = \"trapActivateDisplay\" src=\"assets/trap-activate.jpg\">\n    </div>\n    <div id=\"trap-card\" [@display] = \"trapCardDisplay\" >\n      <img src=\"assets/trap.jpg\">\n      <h1 >Send your nudes <a href=\"mailto:ngp130895@gmail.com?subject=Send nudes\">here</a></h1>\n      <button  routerLink=\"/choose-card\">Play again</button>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 560:
 /***/ (function(module, exports) {
 
-module.exports = "  <h4>\r\n    Are you ready to play this game?\r\n  </h4>\r\n\r\n<button (click)=\"startGame()\" >Start game</button>\r\n"
+module.exports = "  <h4>\n    Are you ready to play this game?\n  </h4>\n\n<button (click)=\"startGame()\" >Start game</button>\n"
 
 /***/ }),
 
