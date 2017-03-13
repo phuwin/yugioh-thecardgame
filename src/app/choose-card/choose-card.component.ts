@@ -12,7 +12,7 @@ export class ChooseCardComponent implements OnInit {
     private router:Router
   ) { }
   card:Object = {
-    url:"/assets/card.jpg"
+    url:"assets/card.jpg"
   }
   ngOnInit() {
   }
