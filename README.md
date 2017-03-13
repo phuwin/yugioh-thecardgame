@@ -1,6 +1,6 @@
 # Yugioh
 
-This project is for learning Angular JS 2. I don not have the copyright for the images in this application.
+This project is for learning Angular JS 2. I do not have the copyrights for the images in this project.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
 ## Install
