@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `npm install` to install needed packages.
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server (install Angular CLI if you don't have it yet with `npm install -g @angular/cli`). Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Screenshot
 ![activate](screenshots/activate.png)
